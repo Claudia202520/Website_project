@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Workout Plans</title>
+  <style>
+    /* Global Styles */
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background-color: #444;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      color: #ff6f61;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+    h2.section-title {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 15px;
+    }
+    .card-content h3 {
+      margin: 0 0 10px;
+    }
+    .card-content p {
+      margin: 0;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+    footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Workout Plans</h1>
+  </header>
+  <nav>
+    <a href="/claudia/ABCFIT.html">Home</a>
+    <a href="/claudia/websites/About_us.html">About</a>
+    <a href="/claudia/websites/Custom.html">Custom</a>
+    <a href="/claudia/websites/Gallery.html">Gallery</a>
+  </nav>
+  <div class="container">
+    <h2 class="section-title">Discover Our Workout Plans</h2>
+    <div class="grid">
+      <!-- Calistenia -->
+      <div class="card">
+        <img src="/claudia/images/Calistenia.jpg" alt="Calistenia" width="120" height="120">
+        <div class="card-content">
+          <h3>Calistenia</h3>
+          <p>Embrace bodyweight training with routines designed to enhance strength, flexibility, and balance using minimal equipment.</p>
+        </div>
+      </div>
+      <!-- Hardcore -->
+      <div class="card">
+        <img src="/claudia/images/hardcore.jpg" alt="Hardcore"width="120" height="120">
+        <div class="card-content">
+          <h3>Hardcore</h3>
+          <p>Push your limits with intense, high-energy workouts that challenge your endurance and build serious muscle strength.</p>
+        </div>
+      </div>
+      <!-- Cardio -->
+      <div class="card">
+        <img src="/claudia/images/cardio.jpg" alt="Cardio"width="120" height="120">
+        <div class="card-content">
+          <h3>Cardio</h3>
+          <p>Boost your heart health and stamina with dynamic aerobic exercises designed for all fitness levels.</p>
+        </div>
+      </div>
+      <!-- Balance -->
+      <div class="card">
+        <img src="/claudia/images/balance.jpg" alt="Balance"width="120" height="120">
+        <div class="card-content">
+          <h3>Balance</h3>
+          <p>Improve stability and core strength with exercises focused on enhancing coordination and balance.</p>
+        </div>
+      </div>
+      <!-- Yoga -->
+      <div class="card">
+        <img src="/claudia/images/yoga.jpg" alt="Yoga"width="120" height="120">
+        <div class="card-content">
+          <h3>Yoga</h3>
+          <p>Experience a blend of mindfulness, flexibility, and strength training with our rejuvenating yoga routines.</p>
+        </div>
+      </div>
+      <!-- Physics -->
+      <div class="card">
+        <img src="/claudia/images/physical.jpeg" alt="Physics"width="120" height="120">
+        <div class="card-content">
+          <h3>Physics</h3>
+          <p>Focus on fundamental physical strength and power with workouts grounded in functional training principles.</p>
+        </div>
+      </div>
+      <!-- Crossover -->
+      <div class="card">
+        <img src="/claudia/images/cross.webp" alt="Crossover"width="120" height="120">
+        <div class="card-content">
+          <h3>Crossover</h3>
+          <p>Blend different workout styles into a versatile regimen that combines elements of strength, cardio, and flexibility.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 ABC Fitness Plans. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABC Fitness | Home</title>
+  <link rel="stylesheet" href="/claudia/CSS_files/style.css">
+</head>
+<body>
+  <header>
+    <img src="/claudia/images/abcfitnesslogo.webp" alt="ABC Fitness Logo" class="logo" width="100" height="100">
+    <h1>ABC Fitness</h1>
+    <nav>
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="/claudia/websites/Gallery.html">Gallery</a></li>
+        <li><a href="/claudia/websites/About_us.html">About Us</a></li>
+        <li><a href="/claudia/websites/Custom.html">Custom</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Welcome to ABC Fitness</h2>
+      <p>Your journey to a healthier life starts here.</p>
+      
+    </section>
+    <!-- Additional sections as needed -->
+    <form action="/claudia/PHP_Files/submit_contact.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+      
+      <button type="submit">Submit</button>
+    </form>
+   <img src="/claudia/images/body_img.webp" alt="Gym Workout" class="body_img" width="100%" height="auto-fit">
+  </main>
+  
+  <footer>
+
+    <section class="newsletter">
+      <input type="email" id="email" placeholder="Enter your email">
+      <button id="subscribeFooterBtn">Subscribe</button>
+    </section>
+
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="/claudia/websites/Gallery.html">Gallery</a></li>
+        <li><a href="/claudia/websites/About_us.html">About Us</a></li>
+        <li><a href="/claudia/websites/Custom.html">Custom</a></li>
+      </ul>
+    </nav>
+
+  </footer>
+  
+
+  <script src="/claudia/JS_files/script.js"></script>
+</body>
+</html>
